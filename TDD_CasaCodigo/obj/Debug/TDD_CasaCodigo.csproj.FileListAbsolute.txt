@@ -1,0 +1,7 @@
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\bin\Debug\TDD_CasaCodigo.exe.config
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\bin\Debug\TDD_CasaCodigo.exe
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\bin\Debug\TDD_CasaCodigo.pdb
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\obj\Debug\TDD_CasaCodigo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\obj\Debug\TDD_CasaCodigo.exe
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\obj\Debug\TDD_CasaCodigo.pdb
+C:\Users\lucas\source\repos\TDD_CasaCodigo\TDD_CasaCodigo\obj\Debug\TDD_CasaCodigo.csprojAssemblyReference.cache
