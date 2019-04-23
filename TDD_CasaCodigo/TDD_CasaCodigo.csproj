@@ -46,6 +46,7 @@
     <Compile Include="Cap4\CalculadoraDeSalario.cs" />
     <Compile Include="Cap4\Cargo.cs" />
     <Compile Include="Cap4\Funcionario.cs" />
+    <Compile Include="Cap4\IRegraDeCalculo.cs" />
     <Compile Include="Cap5\CarrinhoDeCompras.cs" />
     <Compile Include="Cap5\Item.cs" />
     <Compile Include="ConversorDeNumeroRomano.cs" />
