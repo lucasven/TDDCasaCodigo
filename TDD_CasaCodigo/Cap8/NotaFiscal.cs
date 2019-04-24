@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TDD_CasaCodigo.cap8
+namespace TDD_CasaCodigo.Cap8
 {
     public class NotaFiscal
     {

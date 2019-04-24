@@ -50,6 +50,7 @@
     <Compile Include="Cap5\CarrinhoDeCompras.cs" />
     <Compile Include="Cap5\Item.cs" />
     <Compile Include="Cap8\GeradorDeNotaFiscal.cs" />
+    <Compile Include="Cap8\IAcaoAposGerarNota.cs" />
     <Compile Include="Cap8\NFDao.cs" />
     <Compile Include="Cap8\NotaFiscal.cs" />
     <Compile Include="Cap8\Pedido.cs" />

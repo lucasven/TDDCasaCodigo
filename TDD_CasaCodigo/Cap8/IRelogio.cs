@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace TDD_CasaCodigo.Cap8
 {
-    public class SAP
+    public interface IRelogio
     {
-        public virtual void Envia(NotaFiscal nf)
-        {
-            //envia a NF para o SAP
-        }
+        DateTime Hoje();
     }
 }
