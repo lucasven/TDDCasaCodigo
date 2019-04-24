@@ -1,4 +1,6 @@
 .vs/
+TDD_CasaCodigo/obj
+TDD_CasaCodigo/bin
 bin
 obj
 packages
