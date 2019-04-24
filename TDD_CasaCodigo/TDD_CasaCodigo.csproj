@@ -46,9 +46,14 @@
     <Compile Include="Cap4\CalculadoraDeSalario.cs" />
     <Compile Include="Cap4\Cargo.cs" />
     <Compile Include="Cap4\Funcionario.cs" />
-    <Compile Include="Cap4\IRegraDeCalculo.cs" />
+    <Compile Include="Cap4\RegraDeCalculo.cs" />
     <Compile Include="Cap5\CarrinhoDeCompras.cs" />
     <Compile Include="Cap5\Item.cs" />
+    <Compile Include="Cap8\GeradorDeNotaFiscal.cs" />
+    <Compile Include="Cap8\NFDao.cs" />
+    <Compile Include="Cap8\NotaFiscal.cs" />
+    <Compile Include="Cap8\Pedido.cs" />
+    <Compile Include="Cap8\SAP.cs" />
     <Compile Include="ConversorDeNumeroRomano.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
