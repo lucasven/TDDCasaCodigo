@@ -17,7 +17,8 @@ namespace Test.Cap8
         {
             var acao1 = new Mock<IAcaoAposGerarNota>();
             var acao2 = new Mock<IAcaoAposGerarNota>();
-            IList<IAcaoAposGerarNota> acoes = new List<IAcaoAposGerarNota>(){ acao1.Object, acao2.Object };            
+            IList<IAcaoAposGerarNota> acoes = new List<IAcaoAposGerarNota>(){ acao1.Object, acao2.Object };
+            
             GeradorDeNotaFiscal gerador = new GeradorDeNotaFiscal(acoes);
             Pedido pedido = new Pedido("Mauricio", 1000, 1);
 

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TDD_CasaCodigo.Cap8
+namespace TDD_CasaCodigo.Cap9
 {
-    public class RelogioDoSistema : IRelogio
+    public class Boleto
     {
-        public DateTime Hoje()
+        public double Valor { get; set; }
+
+        public Boleto(double _valor)
         {
-            return DateTime.Now;
+            Valor = _valor;
         }
     }
 }

@@ -66,6 +66,8 @@
     <Compile Include="Cap5\CarrinhoDeComprasTest.cs" />
     <Compile Include="Cap8\GeradorDeNotaFiscalTest.cs" />
     <Compile Include="Cap8\NFDaoTest.cs" />
+    <Compile Include="Cap9\FaturaTest.cs" />
+    <Compile Include="Cap9\ProcessadorDeBoletosTest.cs" />
     <Compile Include="ConversorDeNumeroRomanoTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

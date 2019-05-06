@@ -12,7 +12,8 @@ namespace TDD_CasaCodigo.Cap8
         private IRelogio relogio;
         private ITabela tabela;
 
-        public GeradorDeNotaFiscal(IList<IAcaoAposGerarNota> _acoes) : this(_acoes, new RelogioDoSistema()) { }
+        public GeradorDeNotaFiscal(IList<IAcaoAposGerarNota> _acoes) : this(_acoes, new RelogioDoSistema(), new Tabela()) { }
+        public GeradorDeNotaFiscal(IList<IAcaoAposGerarNota> _acoes, ITabela _tabela) : this(_acoes, new RelogioDoSistema(), _tabela) { }
         public GeradorDeNotaFiscal(IList<IAcaoAposGerarNota> _acoes, IRelogio _relogio, ITabela _tabela)
         {
             this.acoes = _acoes;

@@ -51,10 +51,19 @@
     <Compile Include="Cap5\Item.cs" />
     <Compile Include="Cap8\GeradorDeNotaFiscal.cs" />
     <Compile Include="Cap8\IAcaoAposGerarNota.cs" />
+    <Compile Include="Cap8\IRelogio.cs" />
+    <Compile Include="Cap8\ITabela.cs" />
     <Compile Include="Cap8\NFDao.cs" />
     <Compile Include="Cap8\NotaFiscal.cs" />
     <Compile Include="Cap8\Pedido.cs" />
+    <Compile Include="Cap8\RelogioDoSistema.cs" />
     <Compile Include="Cap8\SAP.cs" />
+    <Compile Include="Cap8\Tabela.cs" />
+    <Compile Include="Cap9\Boleto.cs" />
+    <Compile Include="Cap9\MeioDePagamentoEnum.cs" />
+    <Compile Include="Cap9\Fatura.cs" />
+    <Compile Include="Cap9\Pagamento.cs" />
+    <Compile Include="Cap9\ProcessadorDeBoletos.cs" />
     <Compile Include="ConversorDeNumeroRomano.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,5 +71,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

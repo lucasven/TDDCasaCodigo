@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TDD_CasaCodigo.Cap8
 {
-    public class RelogioDoSistema : IRelogio
+    public class Tabela : ITabela
     {
-        public DateTime Hoje()
+        public double ParaValor(double valor)
         {
-            return DateTime.Now;
+            return valor * 0.94;
         }
     }
 }

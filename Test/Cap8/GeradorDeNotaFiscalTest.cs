@@ -31,10 +31,10 @@ namespace Test.Cap8
         public void DeveConsultarATabelaParaCalcularValor()
         {
             // mockando uma tabela, que ainda nem existe
-            var tabela = new Mock<Tabela>();
+            var tabela = new Mock<ITabela>();
             // definindo o futuro comportamento "paraValor",
             // que deve retornar 0.2 caso o valor seja 1000.0
-            tabela.Setup(t => t.ParaValor(1000.0)).Returns(0.2);
+            tabela.Setup(t => t.ParaValor(1000.0)).Returns(200);
             IList<IAcaoAposGerarNota> nenhumaAcao =
             new List<IAcaoAposGerarNota>();
             GeradorDeNotaFiscal gerador =
